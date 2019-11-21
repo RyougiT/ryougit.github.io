@@ -112,7 +112,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="二分,二分图," />
 
 
 
@@ -123,13 +123,15 @@
 
 
 
-<meta name="description" content="健忘症废物">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Forgotten Land">
-<meta property="og:url" content="http:&#x2F;&#x2F;codevka.github.io&#x2F;index.html">
+<meta name="description" content="题目链接">
+<meta name="keywords" content="二分,二分图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[二分答案&#x2F;二分图]图1-2018级算法C5-B题解">
+<meta property="og:url" content="http:&#x2F;&#x2F;codevka.github.io&#x2F;2019&#x2F;11&#x2F;21&#x2F;%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88-%E4%BA%8C%E5%88%86%E5%9B%BE-%E5%9B%BE1-2018%E7%BA%A7%E7%AE%97%E6%B3%95C5-B%E9%A2%98%E8%A7%A3&#x2F;index.html">
 <meta property="og:site_name" content="Forgotten Land">
-<meta property="og:description" content="健忘症废物">
+<meta property="og:description" content="题目链接">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-11-21T07:29:35.592Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -160,13 +162,13 @@
 
 
 
-  <link rel="canonical" href="http://codevka.github.io/"/>
+  <link rel="canonical" href="http://codevka.github.io/2019/11/21/二分答案-二分图-图1-2018级算法C5-B题解/"/>
 
 
 
 
 
-  <title>Forgotten Land</title>
+  <title>[二分答案/二分图]图1-2018级算法C5-B题解 | Forgotten Land</title>
   
 
 
@@ -185,8 +187,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <a href="https://codevka.github.com" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
@@ -291,9 +292,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -323,9 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/21/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88-%E4%BA%8C%E5%88%86%E5%9B%BE-%E5%9B%BE1-2018%E7%BA%A7%E7%AE%97%E6%B3%95C5-B%E9%A2%98%E8%A7%A3/" itemprop="url">[二分答案/二分图]图1-2018级算法C5-B题解</a></h1>
+          <h1 class="post-title" itemprop="name headline">[二分答案/二分图]图1-2018级算法C5-B题解</h1>
         
 
         <div class="post-meta">
@@ -408,16 +407,14 @@
       
 
       
-        
-          <p><a href="https://accoding.cn/problem/2740/index" target="_blank" rel="noopener">题目链接</a></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/11/21/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88-%E4%BA%8C%E5%88%86%E5%9B%BE-%E5%9B%BE1-2018%E7%BA%A7%E7%AE%97%E6%B3%95C5-B%E9%A2%98%E8%A7%A3/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+        <p><a href="https://accoding.cn/problem/2740/index" target="_blank" rel="noopener">题目链接</a></p>
+<a id="more"></a>
+
+<p>这道题如果硬求 $\rm max$$(S_A,S_B)$ 将会变得很复杂，分析题面可知，权值大于答案的边都被割掉后该图便会有两个以上的连通分量，反过来，如果割掉所有权值小于等于答案的边，该图将变成一个二分图；如果扩大 $\rm max$$(S_A,S_B)$，仍然可以满足题意，但如果缩小 $\rm max$$(S_A,S_B)$，割掉所有权值小于等于答案的边，该图仍然不是一个二分图。所以答案具有单调性，可以考虑利用二分答案枚举出所有答案，验证割掉所有权值小于等于答案的边后，该图能不能仍然是一个二分图，同时取满足该条件的最小答案为最终答案。判断二分图的时间复杂度为 $O(M+N)$，二分的时间复杂度为$O(logc)$，总时间复杂度为 $O((M+N)log c)$</p>
+<p>代码如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> INF = <span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = (<span class="number">20000</span> &lt;&lt; <span class="number">1</span>) + <span class="number">5</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> M = (<span class="number">100000</span> &lt;&lt; <span class="number">1</span>) + <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Edge</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> from, to, weight, nowWeight, nex;</span><br><span class="line"></span><br><span class="line">    Edge() &#123;&#125;</span><br><span class="line">    Edge(<span class="keyword">int</span> _from, <span class="keyword">int</span> _to, <span class="keyword">int</span> _weight, <span class="keyword">int</span> _nowWeight, <span class="keyword">int</span> _nex) : from(_from), to(_to), weight(_weight), nowWeight(_nowWeight), nex(_nex) &#123;&#125; <span class="comment">// Edge 的构造函数</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">edge_init</span><span class="params">()</span> </span>&#123; nowWeight = weight; &#125; <span class="comment">// 还原 Edge 到未被割的状态</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">change</span><span class="params">(<span class="keyword">int</span> S)</span> </span>&#123; nowWeight = weight &lt;= S ? INF : S; &#125; <span class="comment">// 如果权值小于等于 S，权值设为 INF，视为被割</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">vector</span>&lt;Edge&gt; edges;</span><br><span class="line"><span class="keyword">int</span> head[N], cnt;</span><br><span class="line"><span class="keyword">int</span> len[M], color[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">addEdge</span><span class="params">(<span class="keyword">int</span>, <span class="keyword">int</span>, <span class="keyword">int</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">(<span class="keyword">int</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span>, <span class="keyword">int</span>)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">judge</span><span class="params">(<span class="keyword">int</span>, <span class="keyword">int</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);</span><br><span class="line">    <span class="built_in">cin</span>.tie(<span class="literal">NULL</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> n, m, a, b, c;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">memset</span>(head, <span class="number">-1</span>, <span class="keyword">sizeof</span>(head));</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= m; i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">        addEdge(a, b, c);</span><br><span class="line">        addEdge(b, a, c);</span><br><span class="line">        len[i] = c;</span><br><span class="line">    &#125;</span><br><span class="line">    sort(len + <span class="number">1</span>, len + <span class="number">1</span> + m); <span class="comment">// 对所有边的权值排序，构成答案区间</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> l = <span class="number">1</span>, r = m, mid;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (l &lt;= r) &#123;</span><br><span class="line">        init(m);</span><br><span class="line">        mid = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">bool</span> flag = judge(len[mid], n);</span><br><span class="line">        <span class="keyword">if</span> (!flag)</span><br><span class="line">            l = mid + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            r = mid - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; len[l] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">addEdge</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b, <span class="keyword">int</span> c)</span> </span>&#123;</span><br><span class="line">    edges.push_back(Edge(a, b, c, <span class="number">0</span>, head[a]));</span><br><span class="line">    head[a] = cnt;</span><br><span class="line">    cnt++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">(<span class="keyword">int</span> m)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; cnt; i++)</span><br><span class="line">        edges[i].edge_init();</span><br><span class="line">    <span class="built_in">memset</span>(color, <span class="number">0</span>, <span class="keyword">sizeof</span>(color));</span><br><span class="line">&#125; <span class="comment">// 每次判断答案正确性时的初始化</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> node, <span class="keyword">int</span> c)</span> </span>&#123;</span><br><span class="line">    color[node] = c;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = head[node]; i != <span class="number">-1</span>; i = edges[i].nex) &#123;</span><br><span class="line">        <span class="keyword">int</span> v = edges[i].to;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (edges[i].nowWeight != INF) &#123;</span><br><span class="line">            <span class="keyword">if</span> (color[v] == c)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">            <span class="keyword">if</span> (!color[v] &amp;&amp; !dfs(v, -c))</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125; <span class="comment">// dfs 染色判断二分图</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">judge</span><span class="params">(<span class="keyword">int</span> S, <span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; cnt; i++)</span><br><span class="line">        edges[i].change(S);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">        <span class="keyword">if</span> (!color[i])</span><br><span class="line">            <span class="keyword">if</span> (!dfs(i, <span class="number">1</span>))</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125; <span class="comment">// 判断是否为二分图</span></span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     
@@ -432,328 +429,38 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://codevka.github.io/2019/11/03/%E8%B4%AA%E5%BF%83-Zexal%E7%9A%84%E6%B5%A9%E7%80%9A%E6%98%9F%E8%BE%B0-2018%E7%BA%A7%E7%AE%97%E6%B3%95C3-E%E9%A2%98%E8%A7%A3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Codevka">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/seyana.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Forgotten Land">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/03/%E8%B4%AA%E5%BF%83-Zexal%E7%9A%84%E6%B5%A9%E7%80%9A%E6%98%9F%E8%BE%B0-2018%E7%BA%A7%E7%AE%97%E6%B3%95C3-E%E9%A2%98%E8%A7%A3/" itemprop="url">[贪心]Zexal的浩瀚星辰-2018级算法C3-E题解</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-03T10:06:39+08:00">
-                2019-11-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index">
-                    <span itemprop="name">算法</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/%E4%BA%8C%E5%88%86/" rel="tag"><i class="fa fa-tag"></i> 二分</a>
           
-
+            <a href="/tags/%E4%BA%8C%E5%88%86%E5%9B%BE/" rel="tag"><i class="fa fa-tag"></i> 二分图</a>
           
-            
-          
-
-          
-          
-             <span id="/2019/11/03/%E8%B4%AA%E5%BF%83-Zexal%E7%9A%84%E6%B5%A9%E7%80%9A%E6%98%9F%E8%BE%B0-2018%E7%BA%A7%E7%AE%97%E6%B3%95C3-E%E9%A2%98%E8%A7%A3/" class="leancloud_visitors" data-flag-title="[贪心]Zexal的浩瀚星辰-2018级算法C3-E题解">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">热度&#58;</span>
-               
-                 <span class="leancloud-visitors-count">度</span>
-             </span>
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <p><a href="https://accoding.cn/problem/2553/index" target="_blank" rel="noopener">题目链接</a></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/11/03/%E8%B4%AA%E5%BF%83-Zexal%E7%9A%84%E6%B5%A9%E7%80%9A%E6%98%9F%E8%BE%B0-2018%E7%BA%A7%E7%AE%97%E6%B3%95C3-E%E9%A2%98%E8%A7%A3/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/11/03/%E8%B4%AA%E5%BF%83-Zexal%E7%9A%84%E6%B5%A9%E7%80%9A%E6%98%9F%E8%BE%B0-2018%E7%BA%A7%E7%AE%97%E6%B3%95C3-E%E9%A2%98%E8%A7%A3/" rel="next" title="[贪心]Zexal的浩瀚星辰-2018级算法C3-E题解">
+                <i class="fa fa-chevron-left"></i> [贪心]Zexal的浩瀚星辰-2018级算法C3-E题解
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://codevka.github.io/2019/10/20/%E6%A0%91%E5%BD%A2dp-%E4%B8%8E%E9%9D%9E%E9%97%A8-2018%E7%BA%A7%E7%AE%97%E6%B3%95C2-B%E9%A2%98%E8%A7%A3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Codevka">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/seyana.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Forgotten Land">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/10/20/%E6%A0%91%E5%BD%A2dp-%E4%B8%8E%E9%9D%9E%E9%97%A8-2018%E7%BA%A7%E7%AE%97%E6%B3%95C2-B%E9%A2%98%E8%A7%A3/" itemprop="url">[树形dp]与非门 - 2018级算法C2-B题解</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+          <div class="post-nav-prev post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-20T10:49:50+08:00">
-                2019-10-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index">
-                    <span itemprop="name">算法</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2019/10/20/%E6%A0%91%E5%BD%A2dp-%E4%B8%8E%E9%9D%9E%E9%97%A8-2018%E7%BA%A7%E7%AE%97%E6%B3%95C2-B%E9%A2%98%E8%A7%A3/" class="leancloud_visitors" data-flag-title="[树形dp]与非门 - 2018级算法C2-B题解">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">热度&#58;</span>
-               
-                 <span class="leancloud-visitors-count">度</span>
-             </span>
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p><a href="https://accoding.cn/problem/2531/index" target="_blank" rel="noopener">题目链接</a></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/10/20/%E6%A0%91%E5%BD%A2dp-%E4%B8%8E%E9%9D%9E%E9%97%A8-2018%E7%BA%A7%E7%AE%97%E6%B3%95C2-B%E9%A2%98%E8%A7%A3/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -763,167 +470,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://codevka.github.io/2019/10/17/Codevka-s-First-Blog/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Codevka">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/seyana.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Forgotten Land">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/10/17/Codevka-s-First-Blog/" itemprop="url">Codevka's Forgotten Land</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-17T19:12:43+08:00">
-                2019-10-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%9D%82%E9%A1%B9/" itemprop="url" rel="index">
-                    <span itemprop="name">杂项</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2019/10/17/Codevka-s-First-Blog/" class="leancloud_visitors" data-flag-title="Codevka's Forgotten Land">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">热度&#58;</span>
-               
-                 <span class="leancloud-visitors-count">度</span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>这是 Codevka 的第一篇博文。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/10/17/Codevka-s-First-Blog/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -931,6 +482,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1185,6 +740,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
